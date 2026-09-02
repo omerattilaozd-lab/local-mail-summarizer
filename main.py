@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434/api/generate")
-MODEL_NAME = "llama3"
+MODEL_NAME = "gemma3:latest"
 
 IMAP_SERVER = "imap.gmail.com"
 EMAIL_USER = os.getenv("GMAIL_USER")
